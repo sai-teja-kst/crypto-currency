@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.currency-logo {
+  height: 2.5vh;
+  width: 2.5vw;
+  margin-right: 10px;
+}
+
+.currency-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+p {
+  font-weight: 500;
+}

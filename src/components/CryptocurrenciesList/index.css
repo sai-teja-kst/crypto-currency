@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.bg-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-logo {
+  height: 25vh;
+  width: 50vw;
+  padding: 10px;
+}
+
+.bg-title {
+  color: cyan;
+}
+
+.bg-item-container {
+  border: 1px solid cyan;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #092e33;
+  background-size: cover;
+  width: 80vw;
+  padding: 0px;
+}
+
+.bg-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bg-euro {
+  justify-self: flex-end;
+}
+
+.bg-usd {
+  justify-self: flex-end;
+}
